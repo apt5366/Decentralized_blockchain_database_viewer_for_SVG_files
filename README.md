@@ -1,8 +1,8 @@
 
-In this project we have created a viewer for SVG files, which are scaleable image files that don't lose their quality no matter how far you zoom in or out. You'll save these files in a decentralized database using GUN, and pull the data back from a keyword alone. The structure is extremely simple to implement, and both teaches you how to create a project on the React framework, and how to implement GUN databases for easy data storage and retrieval.
+In this project I have created a viewer for SVG files, which are scaleable image files that don't lose their quality no matter how far you zoom in or out. We'll save these files in a decentralized database using GUN, and pull the data back from a keyword alone. The structure is extremely simple to implement, and both teaches you how to create a project on the React framework, and how to implement GUN databases for easy data storage and retrieval.
 
 The actual SVG is converted into a URI component via JavaScript's built-in encodeURIComponent() function. 
-The SVG is actually the Ethereum logo, and if you want to quickly run your project to verify that, you may. When the app starts up, this will be the first thing displayed. The SVG object is actually stored with a title and the actual object, so we modify the component in the return statement to include that SVG data pass-through.
+The default SVG is actually the Ethereum logo, and if you want to quickly run your project to verify that, you may. When the app starts up, this will be the first thing displayed. The SVG object is actually stored with a title and the actual object, so we modify the component in the return statement to include that SVG data pass-through.
 
 Also, we wanted to create a form that handles some inputs of a new SVG, and will allow a user to put in a new SVG and toss it up to the Gun database.
 
